@@ -9,63 +9,120 @@
     </head>
 
     <body>
-        <h1>📘 The Code Magazine</h1>
-        <ul>
-            <li><a href="/blog.html">Blog</a></li>
-            <li><a href="/challenges.html">Challenges</a></li>
-            <li><a href="/flexbox.html">Flexbox</a></li>
-            <li><a href="/css-grid.html">CSS Grid</a></li>
-        </ul>
+        <header>
+            <h1>📘 The Code Magazine</h1>
+            <nav>
+                <ul>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/challenges.html">Challenges</a></li>
+                    <li><a href="/flexbox.html">Flexbox</a></li>
+                    <li><a href="/css-grid.html">CSS Grid</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <header>
+                <h2>The Basic Language of the Web: HTML</h2>
+                <img src="./imgs/laura-jones.jpg"
+                    alt="Laura Jones - A caucasian women with colorful hair rests her hand on her face while looking down into the camera."
+                    title="Laura Jones - A caucasian women with colorful hair rests her hand on her face while looking down into the camera."
+                    height="50" width="50">
 
-        <h2>The Basic Language of the Web: HTML</h2>
-        <img src="./imgs/laura-jones.jpg"
-            alt="Laura Jones - A caucasian women with colorful hair rests her hand on her face while looking down into the camera."
-            title="Laura Jones - A caucasian women with colorful hair rests her hand on her face while looking down into the camera."
-            height="50" width="50">
+                <p>Posted by <strong>Laura Jones</strong> on Monday, June 21<sup>st</sup>, 2027</p>
+                <img src="./imgs/post-img.jpg"
+                    alt="A section of HTML (HyperText Markup Language) code on a computer screen"
+                    title="A section of HTML (HyperText Markup Language) code on a computer screen." width="500"
+                    height="200">
+            </header>
 
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21<sup>st</sup>, 2027</p>
+            <section>
+                <p>All modern websites and web applications are built using three <em>fundamental</em> technologies:
+                    HTML,
+                    CSS
+                    and
+                    JavaScript. These are the languages of the web.</p>
 
-        <img src="./imgs/post-img.jpg" alt="A section of HTML (HyperText Markup Language) code on a computer screen"
-            title="A section of HTML (HyperText Markup Language) code on a computer screen." width="500" height="200">
+                <p>In this post, let's focus on HTML. We will learn what HTML is all about, and why you too should
+                    learn
+                    it.
+                </p>
+            </section>
 
-        <p>All modern websites and web applications are built using three <em>fundamental</em> technologies: HTML, CSS
-            and
-            JavaScript. These are the languages of the web.</p>
+            <section>
+                <h3>What is HTML?</h3>
 
-        <p>In this post, let's focus on HTML. We will learn what HTML is all about, and why you too should learn it.
-        </p>
+                <p>HTML stands for <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup
+                    <strong>L</strong>anguage. It's a
+                    markup language
+                    that
+                    web
+                    developers use to structure and describe the content of a webpage (not a programming
+                    language).
+                </p>
 
-        <h3>What is HTML?</h3>
+                <p>HTML consists of elements that describe different types of content: paragraphs, links, headings,
+                    images,
+                    video, etc. Web browsers understand HTML and render HTML code as websites.</p>
 
-        <p>HTML stands for <b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage. It's a markup language that web
-            developers use to structure and describe the content of a webpage (not a programming language).</p>
+                <p>In HTML, each element is made up of 3 parts:</p>
+                <ol>
+                    <li>The opening tag</li>
+                    <li>The closing tag</li>
+                    <li>The actual element</li>
+                </ol>
 
-        <p>HTML consists of elements that describe different types of content: paragraphs, links, headings, images,
-            video, etc. Web browsers understand HTML and render HTML code as websites.</p>
+                <p>You can learn more at the <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web
+                        Docs</a>.
+                </p>
+            </section>
 
-        <p>In HTML, each element is made up of 3 parts:</p>
-        <ol>
-            <li>The opening tag</li>
-            <li>The closing tag</li>
-            <li>The actual element</li>
-        </ol>
+            <section>
+                <h3>Why should you learn HTML?</h3>
 
-        <p>You can learn more at the <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a>.
-        </p>
+                <p>There are countless reasons for learning the fundamental language of the web. Here are 5 of them:
+                </p>
 
-        <h3>Why should you learn HTML?</h3>
+                <ul>
+                    <li>To be able to use the fundamental web dev language</li>
+                    <li>To hand-craft beautiful websites instead of relying on tools like Worpress or Wix</li>
+                    <li>To build web applications</li>
+                    <li>To impress friends</li>
+                    <li>To have fun 😃</li>
+                </ul>
 
-        <p>There are countless reasons for learning the fundamental language of the web. Here are 5 of them:</p>
-
-        <ul>
-            <li>To be able to use the fundamental web dev language</li>
-            <li>To hand-craft beautiful websites instead of relying on tools like Worpress or Wix</li>
-            <li>To build web applications</li>
-            <li>To impress friends</li>
-            <li>To have fun 😃</li>
-        </ul>
-
-        <p>Hopefully you learned something new here. See you next time!</p>
+                <p>Hopefully you learned something new here. See you next time!</p>
+            </section>
+            <aside>
+                <h4>Related Posts</h4>
+                <ul>
+                    <li>
+                        <article>
+                            <img src="./imgs/related-1.jpg"
+                                alt="A caucasian male with dark colored hair typing on a keyboard" width="100"
+                                height="100"><a href="#">How to
+                                Learn Web Development</a>
+                            <p>By Jonas Schmedtmann</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <img src="./imgs/related-2.jpg" alt="A bolt of lightning" width="100" height="100"><a
+                                href="#">The Unknown Powers of
+                                CSS</a>
+                            <p>By Jim Dillon</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <img src="./imgs/related-3.jpg" alt="Some JavaScript code on a computer screen" width="100"
+                                height="100"><a href="#">Why JavaScript is Awesome</a>
+                            <p>By Matilda</p>
+                        </article>
+                    </li>
+                </ul>
+            </aside>
+        </main>
+        <footer>Copyright © 2027 by The Code Magazine</footer>
     </body>
 
 </html>
